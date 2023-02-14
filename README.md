@@ -2,7 +2,7 @@
 
 This is an addition from [Tutorial: Multi-Region Clusters](https://docs.confluent.io/platform/current/tutorials/examples/multiregion/docs/multiregion.html#tutorial-multi-region-clusters).
 
-The cluster setup is a production grade Confluent Multi-Region clusters, with 4 brokers, including 1 observer on each region (east-1 and west-1).
+The cluster setup is a Confluent Multi-Region clusters with 2.5 regions. In the two full regions, each of them has 4 brokers, including 1 observer and 3 replicas.
 
 Inject 100ms network latency between east-1 and west-1 region. 
 
